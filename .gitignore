@@ -1,0 +1,58 @@
+# Сборки
+build/
+out/
+cmake-build-*/
+*.o
+*.obj
+*.elf
+*.map
+*.d
+*.su
+*.lst
+
+# Simplicity Studio / Gecko SDK
+.uc/
+*.emSession
+*.pintool
+*.slsproj
+*.project
+*.cproject
+.settings/
+.slcp
+.slps
+GNU ARM*/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Пароль Wi-Fi для Pico W — только локально (шаблон: secrets_example.py)
+demo/pico/secrets.py
+
+# История чатов (OpenCode и др.) — только локально: там пароль Wi-Fi и прочее личное
+history/
+
+# Заводской дамп — проприетарный, в репозиторий не класть
+dumps/
+stock/
+
+# Скачанные инструменты
+tools/openocd/
+tools/probe-rs/
+tools/gcc/
+tools/*.uf2
+tools/*.log
+
+# ОС и редакторы
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+.idea/
+.vscode/
+demo/pico/__pycache__/
+demo/tools/__pycache__/
+/.openidea/
+/docs/session_handoff.md
